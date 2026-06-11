@@ -1,3 +1,6 @@
+# Claude Code harness state (per-user permission allowlists)
+.claude/
+
 # Netlify CLI local state (links this folder to a specific Netlify site)
 .netlify/
 
