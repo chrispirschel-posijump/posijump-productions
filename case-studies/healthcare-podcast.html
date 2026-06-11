@@ -1,0 +1,255 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1" />
+<title>A healthcare podcast past a million | PosiJump Productions Case Study</title>
+<meta name="description" content="How Chris Pirschel built and produced a weekly oncology-care podcast from concept to 1M+ downloads, with advertising and CE-credit integration." />
+<link rel="icon" type="image/svg+xml" href="/favicon.svg" />
+<link rel="apple-touch-icon" href="/apple-touch-icon.png" />
+<link rel="preconnect" href="https://fonts.googleapis.com" />
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+<link href="https://fonts.googleapis.com/css2?family=Archivo+Black&family=Inter:wght@400;500;600;700;800;900&family=JetBrains+Mono:wght@400;500&display=swap" rel="stylesheet" />
+<script src="https://cdn.tailwindcss.com"></script>
+<script>
+  tailwind.config = { theme: { extend: {
+    colors: { stage: '#17181b', liner: '#e8e4dc', concrete: '#3a3d42', highlighter: '#d9f266', cobalt: '#1e3a8a' },
+    fontFamily: {
+      display: ['"Archivo Black"', 'Impact', 'sans-serif'],
+      sans: ['Inter', 'system-ui', 'sans-serif'],
+      mono: ['"JetBrains Mono"', 'ui-monospace', 'monospace'],
+    }
+  }}}
+</script>
+<link rel="stylesheet" href="../styles.css" />
+</head>
+<body class="grain">
+
+<!-- HEADER -->
+<header class="relative z-20">
+  <div class="max-w-7xl mx-auto px-6 md:px-10 py-6 flex items-center justify-between gap-6">
+    <a href="../" class="group focus:outline-none" aria-label="PosiJump Productions, home">
+      <span class="flex items-baseline gap-2">
+        <span class="display text-stage text-2xl md:text-[28px]">posi<span class="nav-j">J</span>ump</span>
+        <span class="mono-label text-concrete hidden sm:inline">productions</span>
+      </span>
+    </a>
+    <nav class="hidden md:flex items-center gap-8" aria-label="Primary">
+      <a href="../#services" class="text-sm font-medium text-stage link-underline">Services</a>
+      <a href="./" class="text-sm font-medium text-stage link-underline is-active">Work</a>
+      <a href="/portfolio/" class="text-sm font-medium text-stage link-underline">Portfolio</a>
+      <a href="../#about" class="text-sm font-medium text-stage link-underline">About</a>
+      <a href="../#contact" class="text-sm font-medium text-stage link-underline">Contact</a>
+    </nav>
+    <a href="../#contact" class="hidden md:inline-flex btn-primary btn-primary-sm mono-label">Let's talk <span aria-hidden="true">→</span></a>
+    <details class="mobile-menu md:hidden">
+      <summary aria-label="Toggle menu">Menu</summary>
+      <nav class="mobile-menu-panel" aria-label="Mobile">
+        <a href="../#services">Services</a>
+        <a href="./">Work</a>
+        <a href="/portfolio/">Portfolio</a>
+        <a href="../#about">About</a>
+        <a href="../#contact">Contact</a>
+        <a href="../#contact" class="btn-primary mono-label">Let's talk <span aria-hidden="true">→</span></a>
+      </nav>
+    </details>
+  </div>
+  <div class="rule max-w-7xl mx-auto"></div>
+</header>
+
+<main id="top">
+
+  <!-- HERO -->
+  <section class="hero-bg">
+    <div class="max-w-7xl mx-auto px-6 md:px-10 pt-12 pb-16 md:pt-16 md:pb-20">
+      <p class="crumb mb-8"><a href="../">Home</a><span class="sep">/</span><a href="./">Case Studies</a><span class="sep">/</span><span>Healthcare Podcast</span></p>
+
+      <span class="chip mb-6 inline-flex">Podcast + Content</span>
+
+      <h1 class="display display-xl text-stage max-w-[18ch] mt-6">
+        A healthcare podcast past a <span class="mark-hl">million</span>.
+      </h1>
+
+      <div class="mt-10 grid md:grid-cols-12 gap-10">
+        <p class="md:col-span-7 text-lg md:text-xl text-concrete leading-[1.55] max-w-2xl">
+          A professional membership organization in oncology care wanted to deepen engagement, deliver continuing education, and open a new sponsorship channel. They needed a podcast. I built one, end to end, and kept it on the air.
+        </p>
+        <dl class="md:col-span-5 grid grid-cols-1 sm:grid-cols-2 gap-x-6 gap-y-5 text-sm">
+          <div>
+            <dt class="mono-label text-concrete mb-1.5">Client</dt>
+            <dd class="text-stage">Oncology membership organization</dd>
+          </div>
+          <div>
+            <dt class="mono-label text-concrete mb-1.5">Role</dt>
+            <dd class="text-stage">Lead producer, host, monetization</dd>
+          </div>
+          <div>
+            <dt class="mono-label text-concrete mb-1.5">Format</dt>
+            <dd class="text-stage">Weekly expert-interview series</dd>
+          </div>
+          <div>
+            <dt class="mono-label text-concrete mb-1.5">Outcome</dt>
+            <dd class="text-stage">1M+ downloads, sustained ad revenue</dd>
+          </div>
+        </dl>
+      </div>
+    </div>
+  </section>
+
+  <!-- OVERVIEW -->
+  <section class="bg-liner">
+    <div class="max-w-7xl mx-auto px-6 md:px-10 py-20 md:py-28 border-t border-stage/10">
+      <div class="grid md:grid-cols-12 gap-10">
+        <div class="md:col-span-4">
+          <p class="mono-label text-concrete mb-4">01 / Overview</p>
+          <h2 class="display display-m text-stage">An engaged community without a podcast to match.</h2>
+        </div>
+        <div class="md:col-span-8 prose-body max-w-2xl">
+          <p>The organization served a sizeable, engaged community of oncology professionals. They were looking for new ways to connect with that community, deliver continuing education, and generate revenue through ad sales.</p>
+          <p>I played a critical role in the podcast's formation and success, handling content development, production, distribution, and monetization from inception to milestone achievement.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- CHALLENGE -->
+  <section class="bg-liner">
+    <div class="max-w-7xl mx-auto px-6 md:px-10 py-20 md:py-28 border-t border-stage/10">
+      <div class="grid md:grid-cols-12 gap-10">
+        <div class="md:col-span-4">
+          <p class="mono-label text-concrete mb-4">02 / The Challenge</p>
+          <h2 class="display display-m text-stage">Start a podcast. Don't just start a podcast.</h2>
+        </div>
+        <div class="md:col-span-8 prose-body max-w-2xl">
+          <p>Launching a new show meant solving five things in parallel:</p>
+          <ul>
+            <li><strong>Concept development</strong>: a format that would engage and educate oncology professionals.</li>
+            <li><strong>A routine</strong>: a consistent production schedule to maintain momentum and audience interest.</li>
+            <li><strong>Production</strong>: recording, editing, and distribution at a quality the audience deserved.</li>
+            <li><strong>Promotion &amp; growth</strong>: building a listener base through real marketing, not just "we posted it."</li>
+            <li><strong>Revenue</strong>: ad sales and CE tie-ins that made the show financially sustainable.</li>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- APPROACH -->
+  <section class="bg-liner">
+    <div class="max-w-7xl mx-auto px-6 md:px-10 py-20 md:py-28 border-t border-stage/10">
+      <div class="grid md:grid-cols-12 gap-10">
+        <div class="md:col-span-4">
+          <p class="mono-label text-concrete mb-4">03 / Our Approach</p>
+          <h2 class="display display-m text-stage">Structured. Staffed. Shipped.</h2>
+        </div>
+        <div class="md:col-span-8 approach-list">
+
+          <div class="approach-item">
+            <div>
+              <h3 class="display text-stage text-xl mb-2">Format &amp; Content Planning</h3>
+              <p class="text-concrete leading-[1.6]">Developed the vision and format around expert interviews, clinical insights, and emerging trends. Built a content calendar for consistent, high-value episodes. Outlined core topics tied to oncology career growth.</p>
+            </div>
+          </div>
+
+          <div class="approach-item">
+            <div>
+              <h3 class="display text-stage text-xl mb-2">Guest Sourcing &amp; Interview Management</h3>
+              <p class="text-concrete leading-[1.6]">Identified and secured subject matter experts from across the oncology field. Tailored interview questions per guest. Coordinated scheduling and pre-interviews for a seamless production flow.</p>
+            </div>
+          </div>
+
+          <div class="approach-item">
+            <div>
+              <h3 class="display text-stage text-xl mb-2">Production &amp; Distribution</h3>
+              <p class="text-concrete leading-[1.6]">Managed recording, editing, and post-production for high audio quality. Set up distribution through LibSyn, ensuring availability on Apple Podcasts, Spotify, and Google Podcasts. Wrote detailed episode descriptions and social assets.</p>
+            </div>
+          </div>
+
+          <div class="approach-item">
+            <div>
+              <h3 class="display text-stage text-xl mb-2">Promotion &amp; Engagement</h3>
+              <p class="text-concrete leading-[1.6]">Leveraged social media, email newsletters, and print publications to promote episodes. Integrated the show with the organization's continuing education platform so listeners could earn CE credits. Monitored analytics and adjusted promo strategies on the fly.</p>
+            </div>
+          </div>
+
+          <div class="approach-item">
+            <div>
+              <h3 class="display text-stage text-xl mb-2">Monetization &amp; Sponsorship</h3>
+              <p class="text-concrete leading-[1.6]">Collaborated with in-house teams to define the advertising model, integrating sponsored reads that aligned with the show's educational focus and audience interests.</p>
+            </div>
+          </div>
+
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- RESULTS -->
+  <section class="dark-bg text-liner">
+    <div class="max-w-7xl mx-auto px-6 md:px-10 py-20 md:py-28">
+      <div class="grid md:grid-cols-12 gap-10 mb-14">
+        <div class="md:col-span-4">
+          <p class="mono-label text-liner/70 mb-4">04 / The Results</p>
+          <h2 class="display display-l text-liner">What moved.</h2>
+        </div>
+        <p class="md:col-span-8 text-lg text-liner/85 leading-[1.6] max-w-2xl">From an idea to an essential industry resource.</p>
+      </div>
+
+      <div class="grid md:grid-cols-3 gap-6">
+        <div class="stat-block">
+          <p class="stat-num">1M+</p>
+          <p class="stat-label">All-time downloads (as of April 2023)</p>
+        </div>
+        <div class="stat-block">
+          <p class="stat-num">5K–20K</p>
+          <p class="stat-label">Average weekly listeners</p>
+        </div>
+        <div class="stat-block">
+          <p class="stat-num">Weekly</p>
+          <p class="stat-label">Cadence sustained from launch</p>
+        </div>
+      </div>
+
+      <div class="mt-12 prose-body text-liner/85 max-w-3xl">
+        <p><strong class="text-liner">CE credit integration.</strong> Listeners could earn professional development credits alongside the content, deepening the value of every episode.</p>
+        <p><strong class="text-liner">Sustained sponsorship revenue.</strong> Integrated ad reads created a reliable revenue stream aligned to the audience, not a bolted-on afterthought.</p>
+      </div>
+    </div>
+  </section>
+
+  <!-- CTA -->
+  <section class="bg-liner">
+    <div class="max-w-7xl mx-auto px-6 md:px-10 py-20 md:py-28 border-t border-stage/10">
+      <h2 class="display display-l text-stage max-w-[20ch]">Thinking about a podcast?</h2>
+      <p class="mt-6 text-lg text-concrete max-w-2xl leading-[1.6]">Most fail because they launch without a plan past episode three. Let's talk about what a show that actually lasts looks like for your audience.</p>
+      <div class="mt-8 flex flex-wrap items-center gap-5">
+        <a href="../#contact" class="btn-primary mono-label">Start a conversation <span aria-hidden="true">→</span></a>
+        <a href="./" class="btn-secondary text-sm">More case studies</a>
+      </div>
+    </div>
+  </section>
+
+</main>
+
+<!-- FOOTER -->
+<footer class="bg-liner">
+  <div class="max-w-7xl mx-auto px-6 md:px-10 py-12 flex flex-col md:flex-row items-start md:items-center justify-between gap-6 border-t border-stage/15">
+    <a href="../" class="group focus:outline-none" aria-label="PosiJump Productions, home">
+      <span class="flex items-baseline gap-2">
+        <span class="display text-stage text-xl">posi<span class="nav-j">J</span>ump</span>
+        <span class="mono-label text-concrete">productions</span>
+      </span>
+    </a>
+    <p class="mono-label text-concrete">Bringing catchy hooks and a DIY work ethic to digital marketing.</p>
+    <div class="flex items-center gap-5">
+      <a href="https://www.linkedin.com/in/christopher-pirschel0822/" target="_blank" rel="noopener noreferrer" class="icon-link" aria-label="Chris Pirschel on LinkedIn (opens in new tab)">
+        <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M16 8a6 6 0 0 1 6 6v7h-4v-7a2 2 0 0 0-2-2 2 2 0 0 0-2 2v7h-4v-7a6 6 0 0 1 6-6z"/><rect x="2" y="9" width="4" height="12"/><circle cx="4" cy="4" r="2"/></svg>
+      </a>
+      <p class="mono-label text-concrete">© 2026 PosiJump Productions</p>
+    </div>
+  </div>
+</footer>
+
+<script src="/nav.js" defer></script>
+</body>
+</html>

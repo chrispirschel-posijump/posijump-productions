@@ -1,0 +1,18 @@
+# Netlify CLI local state (links this folder to a specific Netlify site)
+.netlify/
+
+# macOS
+.DS_Store
+
+# Editor / IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# Node (in case anything is ever added)
+node_modules/
+
+# Local env
+.env
+.env.local

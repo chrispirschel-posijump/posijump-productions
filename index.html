@@ -1,0 +1,421 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1" />
+<title>PosiJump Productions | Digital marketing with a DIY ethic.</title>
+<meta name="description" content="Bringing catchy hooks and a DIY work ethic to digital marketing." />
+<link rel="icon" type="image/svg+xml" href="/favicon.svg" />
+<link rel="apple-touch-icon" href="/apple-touch-icon.png" />
+<link rel="preconnect" href="https://fonts.googleapis.com" />
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+<link href="https://fonts.googleapis.com/css2?family=Archivo+Black&family=Inter:wght@400;500;600;700;800;900&family=JetBrains+Mono:wght@400;500&display=swap" rel="stylesheet" />
+<script src="https://cdn.tailwindcss.com"></script>
+<script>
+  tailwind.config = {
+    theme: {
+      extend: {
+        colors: {
+          stage: '#17181b',
+          liner: '#e8e4dc',
+          concrete: '#3a3d42',
+          highlighter: '#d9f266',
+          cobalt: '#1e3a8a',
+          olive: '#646b3c',
+        },
+        fontFamily: {
+          display: ['"Archivo Black"', 'Impact', 'sans-serif'],
+          sans: ['Inter', 'system-ui', 'sans-serif'],
+          mono: ['"JetBrains Mono"', 'ui-monospace', 'monospace'],
+        },
+      }
+    }
+  }
+</script>
+<link rel="stylesheet" href="styles.css" />
+</head>
+<body class="grain">
+
+<!-- SVG duotone filter: Cobalt shadows, Liner Note highlights -->
+<svg width="0" height="0" style="position:absolute" aria-hidden="true" focusable="false">
+  <defs>
+    <filter id="duotone-cobalt" color-interpolation-filters="sRGB">
+      <feColorMatrix type="matrix" values="0.2126 0.7152 0.0722 0 0
+                                           0.2126 0.7152 0.0722 0 0
+                                           0.2126 0.7152 0.0722 0 0
+                                           0 0 0 1 0"/>
+      <feComponentTransfer>
+        <feFuncR tableValues="0.118 0.910"/>
+        <feFuncG tableValues="0.227 0.894"/>
+        <feFuncB tableValues="0.541 0.863"/>
+      </feComponentTransfer>
+    </filter>
+  </defs>
+</svg>
+
+<!-- HEADER -->
+<header class="relative z-20">
+  <div class="max-w-7xl mx-auto px-6 md:px-10 py-6 flex items-center justify-between gap-6">
+    <a href="#top" class="group focus:outline-none" aria-label="PosiJump Productions, home">
+      <span class="flex items-baseline gap-2">
+        <span class="display text-stage text-2xl md:text-[28px]">posi<span class="nav-j">J</span>ump</span>
+        <span class="mono-label text-concrete hidden sm:inline">productions</span>
+      </span>
+    </a>
+    <nav class="hidden md:flex items-center gap-8" aria-label="Primary">
+      <a href="#services" class="text-sm font-medium text-stage link-underline">Services</a>
+      <a href="#work" class="text-sm font-medium text-stage link-underline">Work</a>
+      <a href="/portfolio/" class="text-sm font-medium text-stage link-underline">Portfolio</a>
+      <a href="#about" class="text-sm font-medium text-stage link-underline">About</a>
+      <a href="#contact" class="text-sm font-medium text-stage link-underline">Contact</a>
+    </nav>
+    <a href="#contact" class="hidden md:inline-flex btn-primary btn-primary-sm mono-label">Let's talk <span aria-hidden="true">→</span></a>
+    <details class="mobile-menu md:hidden">
+      <summary aria-label="Toggle menu">Menu</summary>
+      <nav class="mobile-menu-panel" aria-label="Mobile">
+        <a href="#services">Services</a>
+        <a href="#work">Work</a>
+        <a href="/portfolio/">Portfolio</a>
+        <a href="#about">About</a>
+        <a href="#contact">Contact</a>
+        <a href="#contact" class="btn-primary mono-label">Let's talk <span aria-hidden="true">→</span></a>
+      </nav>
+    </details>
+  </div>
+  <div class="rule max-w-7xl mx-auto"></div>
+</header>
+
+<main id="top">
+
+  <!-- HERO -->
+  <section class="hero-bg">
+    <div class="max-w-7xl mx-auto px-6 md:px-10 pt-16 pb-24 md:pt-24 md:pb-36">
+      <p class="mono-label text-concrete mb-8">Marketing · Content · SEO · Podcasting</p>
+
+      <h1 class="display display-xl text-stage max-w-[16ch]">
+        Digital marketing with a <span class="mark-hl">DIY</span> ethic.
+      </h1>
+
+      <div class="mt-10 grid md:grid-cols-12 gap-8 items-end">
+        <p class="md:col-span-7 text-lg md:text-xl text-concrete leading-[1.55] max-w-2xl">A Pittsburgh-based marketing practice for small businesses that want strategy with personality, run by the person who actually does the work.</p>
+        <div class="md:col-span-5 flex flex-wrap items-center gap-5 md:justify-end">
+          <a href="#contact" class="btn-primary mono-label">Let's talk <span aria-hidden="true">→</span></a>
+          <a href="#services" class="btn-secondary text-sm">See what I do</a>
+        </div>
+      </div>
+    </div>
+
+    <!-- Tagline ticker -->
+    <div class="ticker bg-liner/60">
+      <div class="ticker-track mono-label text-stage">
+        <span class="ticker-item"><span class="ticker-dot"></span>1M+ podcast downloads</span>
+        <span class="ticker-item"><span class="ticker-dot"></span>14% MoM visitor growth</span>
+        <span class="ticker-item"><span class="ticker-dot"></span>754% social reach growth</span>
+        <span class="ticker-item"><span class="ticker-dot"></span>Pittsburgh-based, remote-first</span>
+        <span class="ticker-item"><span class="ticker-dot"></span>Consulting. Content. SEO. Websites. Podcasts. Social.</span>
+        <span class="ticker-item"><span class="ticker-dot"></span>1M+ podcast downloads</span>
+        <span class="ticker-item"><span class="ticker-dot"></span>14% MoM visitor growth</span>
+        <span class="ticker-item"><span class="ticker-dot"></span>754% social reach growth</span>
+        <span class="ticker-item"><span class="ticker-dot"></span>Pittsburgh-based, remote-first</span>
+        <span class="ticker-item"><span class="ticker-dot"></span>Consulting. Content. SEO. Websites. Podcasts. Social.</span>
+      </div>
+    </div>
+  </section>
+
+  <!-- SERVICES -->
+  <section id="services" class="bg-liner">
+    <div class="max-w-7xl mx-auto px-6 md:px-10 py-24 md:py-32">
+      <div class="grid md:grid-cols-12 gap-8 mb-16 md:mb-20 items-end">
+        <div class="md:col-span-7">
+          <p class="mono-label text-concrete mb-5">01 / Services</p>
+          <h2 class="display display-l text-stage">Small shop. Big <span class="mark-hl">hooks</span>. Real results.</h2>
+        </div>
+        <p class="md:col-span-5 text-lg text-concrete leading-[1.6] md:pb-2">
+          Six lines of service, built to fit together. Hire for one, or let them compound.
+        </p>
+      </div>
+
+      <div class="grid md:grid-cols-2 lg:grid-cols-3 gap-6 md:gap-7">
+
+        <article class="service-card p-8 md:p-9">
+          <div class="flex items-center gap-3 mb-10">
+              <svg class="service-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><circle cx="12" cy="12" r="10"/><polygon points="16.24 7.76 14.12 14.12 7.76 16.24 9.88 9.88"/></svg>
+              <span class="mono-label text-concrete">01</span>
+          </div>
+          <h3 class="display display-m text-stage mb-3">Marketing Consulting</h3>
+          <p class="text-concrete leading-[1.6]">Strategy sessions that leave you with a plan, not a pitch deck. We'll audit your site, your channels, and your messaging, then map out where to put your next dollar.</p>
+        </article>
+
+        <article class="service-card p-8 md:p-9">
+          <div class="flex items-center gap-3 mb-10">
+              <svg class="service-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M6 4h11a2 2 0 0 1 2 2v14a2 2 0 0 1-2 2H6Z"/><path d="M6 4v18"/><path d="M10 8h6"/><path d="M10 12h6"/><path d="M10 16h4"/></svg>
+              <span class="mono-label text-concrete">02</span>
+          </div>
+          <h3 class="display display-m text-stage mb-3">Content Strategy</h3>
+          <p class="text-concrete leading-[1.6]">A content engine that sounds like you, not an algorithm. Pillars, cadence, calendar, the pages on your site to hold it, and the follow-through to actually ship it.</p>
+        </article>
+
+        <article class="service-card p-8 md:p-9">
+          <div class="flex items-center gap-3 mb-10">
+              <svg class="service-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M12 20h9"/><path d="M16.5 3.5a2.12 2.12 0 1 1 3 3L7 19l-4 1 1-4 12.5-12.5Z"/></svg>
+              <span class="mono-label text-concrete">03</span>
+          </div>
+          <h3 class="display display-m text-stage mb-3">Copywriting &amp; Editing</h3>
+          <p class="text-concrete leading-[1.6]">Words that do the work. Websites, landing pages, emails, scripts, written tight and edited tighter. No filler, no jargon, no corporate drift.</p>
+        </article>
+
+        <article class="service-card p-8 md:p-9">
+          <div class="flex items-center gap-3 mb-10">
+              <svg class="service-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><circle cx="11" cy="11" r="8"/><path d="m21 21-4.35-4.35"/></svg>
+              <span class="mono-label text-concrete">04</span>
+          </div>
+          <h3 class="display display-m text-stage mb-3">SEO</h3>
+          <p class="text-concrete leading-[1.6]">Rankings earned by writing things worth reading. Technical fixes where they matter, content built around real search intent, and nothing that'll embarrass you later.</p>
+        </article>
+
+        <article class="service-card p-8 md:p-9">
+          <div class="flex items-center gap-3 mb-10">
+              <svg class="service-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><rect x="9" y="2" width="6" height="13" rx="3"/><path d="M19 10v2a7 7 0 0 1-14 0v-2"/><line x1="12" y1="19" x2="12" y2="22"/></svg>
+              <span class="mono-label text-concrete">05</span>
+          </div>
+          <h3 class="display display-m text-stage mb-3">Podcast Production</h3>
+          <p class="text-concrete leading-[1.6]">From concept to published feed. Hosting, booking, producing, editing, and the kind of show notes that actually get read.</p>
+        </article>
+
+        <article class="service-card p-8 md:p-9">
+          <div class="flex items-center gap-3 mb-10">
+              <svg class="service-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M4.9 19.1C1 15.2 1 8.8 4.9 4.9"/><path d="M7.8 16.2c-2.3-2.3-2.3-6.1 0-8.5"/><circle cx="12" cy="12" r="2"/><path d="M16.2 7.8c2.3 2.3 2.3 6.1 0 8.5"/><path d="M19.1 4.9C23 8.8 23 15.2 19.1 19.1"/></svg>
+              <span class="mono-label text-concrete">06</span>
+          </div>
+          <h3 class="display display-m text-stage mb-3">Social Media</h3>
+          <p class="text-concrete leading-[1.6]">Posts that don't read like they were written by a committee. Platform-aware, on-voice, and built around the stuff your audience actually shows up for.</p>
+        </article>
+
+      </div>
+    </div>
+  </section>
+
+  <!-- CASE STUDIES -->
+  <section id="work" class="bg-liner">
+    <div class="max-w-7xl mx-auto px-6 md:px-10 py-24 md:py-32 border-t border-stage/10">
+      <div class="grid md:grid-cols-12 gap-8 mb-14 md:mb-20 items-end">
+        <div class="md:col-span-7">
+          <p class="mono-label text-concrete mb-5">02 / Case Studies</p>
+          <h2 class="display display-l text-stage">The <span class="mark-hl">proof</span>, in plain numbers.</h2>
+        </div>
+        <p class="md:col-span-5 text-lg text-concrete leading-[1.6] md:pb-2">
+          A selection of work across SEO, content, podcasting, and social.
+        </p>
+      </div>
+
+      <div class="grid md:grid-cols-2 gap-6 md:gap-8">
+
+        <article class="case-card">
+          <div class="p-8 md:p-10 flex-1 flex flex-col">
+            <div class="mb-8">
+              <span class="chip">SEO + Content</span>
+            </div>
+            <p class="mono-label text-concrete mb-3">IT Services Provider / Healthcare + Real Estate</p>
+            <h3 class="display display-m text-stage mb-4">Sharper content, right-fit clients.</h3>
+            <p class="text-concrete leading-[1.6] mb-8">A 25-page service-section rewrite and SEO overhaul, built to attract the industries they actually wanted to serve.</p>
+            <div class="mt-auto flex flex-col gap-3 sm:flex-row sm:items-end sm:justify-between sm:gap-4">
+              <div>
+                <p class="display text-stage text-5xl">14%</p>
+                <p class="mono-label text-concrete mt-2">Month-over-month visitor growth</p>
+              </div>
+              <a href="case-studies/it-services-seo.html" class="stretched mono-label text-stage link-underline whitespace-nowrap">Read case study →</a>
+            </div>
+          </div>
+        </article>
+
+        <article class="case-card">
+          <div class="p-8 md:p-10 flex-1 flex flex-col">
+            <div class="mb-8">
+              <span class="chip">Podcast + Content</span>
+            </div>
+            <p class="mono-label text-concrete mb-3">Oncology Membership Org</p>
+            <h3 class="display display-m text-stage mb-4">A healthcare podcast past a million.</h3>
+            <p class="text-concrete leading-[1.6] mb-8">Built and produced a weekly healthcare podcast from concept to feed, with ad revenue and CE-credit integration.</p>
+            <div class="mt-auto flex flex-col gap-3 sm:flex-row sm:items-end sm:justify-between sm:gap-4">
+              <div>
+                <p class="display text-stage text-5xl">1M+</p>
+                <p class="mono-label text-concrete mt-2">All-time downloads</p>
+              </div>
+              <a href="case-studies/healthcare-podcast.html" class="stretched mono-label text-stage link-underline whitespace-nowrap">Read case study →</a>
+            </div>
+          </div>
+        </article>
+
+        <article class="case-card">
+          <div class="p-8 md:p-10 flex-1 flex flex-col">
+            <div class="mb-8">
+              <span class="chip">Social Media</span>
+            </div>
+            <p class="mono-label text-concrete mb-3">Behavior Analysis Clinic / Raleigh, NC</p>
+            <h3 class="display display-m text-stage mb-4">A clinic that sounded like itself online.</h3>
+            <p class="text-concrete leading-[1.6] mb-8">Daily posting across three platforms, two audiences, one voice. Built the calendar, wrote the copy, handed back the process.</p>
+            <div class="mt-auto flex flex-col gap-3 sm:flex-row sm:items-end sm:justify-between sm:gap-4">
+              <div>
+                <p class="display text-stage text-5xl">754%</p>
+                <p class="mono-label text-concrete mt-2">Reach growth on Meta</p>
+              </div>
+              <a href="case-studies/aba-clinic-social.html" class="stretched mono-label text-stage link-underline whitespace-nowrap">Read case study →</a>
+            </div>
+          </div>
+        </article>
+
+        <article class="case-card">
+          <div class="p-8 md:p-10 flex-1 flex flex-col">
+            <div class="mb-8">
+              <span class="chip">Local SEO</span>
+            </div>
+            <p class="mono-label text-concrete mb-3">Gantry Kids &amp; Teens / Long Island City</p>
+            <h3 class="display display-m text-stage mb-4">Local SEO for a local favorite.</h3>
+            <p class="text-concrete leading-[1.6] mb-8">107 pages audited, title tags and alt text rebuilt, localized blog content shipped. A steady traffic lift and better-qualified visits.</p>
+            <div class="mt-auto flex flex-col gap-3 sm:flex-row sm:items-end sm:justify-between sm:gap-4">
+              <div>
+                <p class="display text-stage text-5xl">15%</p>
+                <p class="mono-label text-concrete mt-2">Year-over-year views</p>
+              </div>
+              <a href="case-studies/gantry-kids-seo.html" class="stretched mono-label text-stage link-underline whitespace-nowrap">Read case study →</a>
+            </div>
+          </div>
+        </article>
+
+      </div>
+
+      <div class="mt-14 flex flex-wrap items-center gap-5">
+        <a href="case-studies/" class="btn-primary mono-label">See all case studies <span aria-hidden="true">→</span></a>
+        <a href="#contact" class="btn-secondary text-sm">Have a similar problem? Let's talk</a>
+      </div>
+    </div>
+  </section>
+
+  <!-- ABOUT -->
+  <section id="about" class="bg-liner">
+    <div class="max-w-7xl mx-auto px-6 md:px-10 py-24 md:py-32 border-t border-stage/10">
+      <p class="mono-label text-concrete mb-5">03 / About</p>
+
+      <div class="grid md:grid-cols-12 gap-10 md:gap-14 items-start">
+        <div class="md:col-span-5">
+          <div class="portrait-wrap aspect-[4/5] max-w-md">
+            <img src="Images/chris-headshot-web.jpg" alt="Chris Pirschel on stage with a guitar, mid-performance" loading="lazy" />
+          </div>
+          <p class="mono-label text-concrete mt-5">Chris Pirschel / Founder, Producer, Writer</p>
+        </div>
+
+        <div class="md:col-span-7">
+          <h2 class="display display-l text-stage mb-8">
+            Hi, I'm Chris.
+          </h2>
+
+          <div class="space-y-5 text-lg text-concrete leading-[1.65] max-w-2xl">
+            <p>
+              I've spent nearly 15 years building marketing and content for small businesses and startups. Brands, bands, and businesses. In-house and DIY. Long enough to know what works and what's theater.
+            </p>
+            <p>
+              I think the best marketing teaches. I think one good conversation can fuel a month of content. I think your website should work like a 24/7 salesperson so you can focus on the conversations that actually matter. And I think most businesses are sitting on more interesting material than they realize, they just need someone to help pull it out and put it into the world.
+            </p>
+            <p>
+              The name PosiJump comes from a band I started in high school. It's that airborne moment: guitars out, legs tucked like a cannonball. But it also signals the DIY ethos behind it, where I learned to build, market, and run something from the ground up. Still doing the same thing, just for other people's businesses now.
+            </p>
+            <p>
+              For business owners who want marketing that sounds like them, delivered by someone who actually does the work.
+            </p>
+          </div>
+
+          <div class="mt-10 grid grid-cols-2 md:grid-cols-3 gap-6">
+            <div>
+              <p class="display text-stage text-4xl">15</p>
+              <p class="mono-label text-concrete mt-2">Years in the work</p>
+            </div>
+            <div>
+              <p class="display text-stage text-4xl">6</p>
+              <p class="mono-label text-concrete mt-2">Services</p>
+            </div>
+            <div>
+              <p class="display text-stage text-4xl">1</p>
+              <p class="mono-label text-concrete mt-2">Point of contact</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- MANIFESTO -->
+  <section aria-label="The promise of the practice" class="bg-liner">
+    <div class="max-w-7xl mx-auto px-6 md:px-10 py-24 md:py-36 border-t border-stage/10">
+      <blockquote class="border-l-[6px] border-highlighter pl-8 md:pl-12 max-w-4xl">
+        <p class="display display-l text-stage leading-[1.05]">
+          The person you hire is the person doing the work.
+        </p>
+        <p class="mono-label text-concrete mt-6">No handoffs. No layers.</p>
+      </blockquote>
+    </div>
+  </section>
+
+  <!-- CONTACT -->
+  <section id="contact" class="dark-bg text-liner relative">
+    <div class="max-w-7xl mx-auto px-6 md:px-10 py-24 md:py-36">
+      <p class="mono-label text-liner/70 mb-6">04 / Let's talk</p>
+
+      <h2 class="display display-xl text-liner max-w-[14ch]">
+        Let's write something with a <span class="jump-j">h</span>ook.
+      </h2>
+
+      <div class="mt-10 grid md:grid-cols-12 gap-8 items-end">
+        <p class="md:col-span-7 text-lg md:text-xl text-liner/80 leading-[1.55] max-w-2xl">
+          Drop a line. First conversation's free. I'll listen, ask the annoying questions, and tell you straight whether I'm the right fit, or who is.
+        </p>
+
+        <div class="md:col-span-5 flex flex-wrap items-center gap-5 md:justify-end">
+          <a href="mailto:pirschc@gmail.com" class="btn-primary mono-label">
+            Connect with Chris <span aria-hidden="true">→</span>
+          </a>
+        </div>
+      </div>
+
+      <div class="rule-light mt-16 mb-10"></div>
+
+      <div class="grid md:grid-cols-3 gap-8 text-sm">
+        <div>
+          <p class="mono-label text-liner/60 mb-2">Based in</p>
+          <p class="text-liner">Pittsburgh-based. Remote-first. Wherever the work takes us.</p>
+        </div>
+        <div>
+          <p class="mono-label text-liner/60 mb-2">Good fit for</p>
+          <p class="text-liner">Small businesses, solopreneurs, founders who want a real partner, not a deliverables machine.</p>
+        </div>
+        <div>
+          <p class="mono-label text-liner/60 mb-2">Not a fit for</p>
+          <p class="text-liner">Anyone looking for synergy, leverage, or a journey to unlock.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+</main>
+
+<!-- FOOTER -->
+<footer class="bg-liner">
+  <div class="max-w-7xl mx-auto px-6 md:px-10 py-12 flex flex-col md:flex-row items-start md:items-center justify-between gap-6 border-t border-stage/15">
+    <a href="#top" class="group focus:outline-none" aria-label="PosiJump Productions, back to top">
+      <span class="flex items-baseline gap-2">
+        <span class="display text-stage text-xl">posi<span class="nav-j">J</span>ump</span>
+        <span class="mono-label text-concrete">productions</span>
+      </span>
+    </a>
+    <p class="mono-label text-concrete">Bringing catchy hooks and a DIY work ethic to digital marketing.</p>
+    <div class="flex items-center gap-5">
+      <a href="https://www.linkedin.com/in/christopher-pirschel0822/" target="_blank" rel="noopener noreferrer" class="icon-link" aria-label="Chris Pirschel on LinkedIn (opens in new tab)">
+        <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M16 8a6 6 0 0 1 6 6v7h-4v-7a2 2 0 0 0-2-2 2 2 0 0 0-2 2v7h-4v-7a6 6 0 0 1 6-6z"/><rect x="2" y="9" width="4" height="12"/><circle cx="4" cy="4" r="2"/></svg>
+      </a>
+      <p class="mono-label text-concrete">© 2026 PosiJump Productions</p>
+    </div>
+  </div>
+</footer>
+
+<script src="/nav.js" defer></script>
+</body>
+</html>
