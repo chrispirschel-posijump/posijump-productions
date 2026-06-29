@@ -109,6 +109,10 @@ a:hover .nav-j, a:focus-visible .nav-j { transform: translateY(-0.2em) rotate(-7
 .btn-secondary:hover { transform: translateY(-2px); border-color: var(--highlighter); }
 .btn-secondary:focus-visible { outline: 3px solid var(--cobalt); outline-offset: 4px; }
 
+/* Dark-bg variant for cross-promote CTAs in Stage Black sections */
+.btn-secondary-light { color: var(--liner); border-bottom-color: rgba(232, 228, 220, 0.4); }
+.btn-secondary-light:hover { border-color: var(--highlighter); }
+
 /* Nav link underline reveal (Cobalt) */
 .link-underline {
   background-image: linear-gradient(var(--cobalt), var(--cobalt));
